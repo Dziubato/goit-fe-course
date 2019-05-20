@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav ul {
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav ul li {
+    font-size: 14px;
+    display: inline-block;
+    padding: 75px 62px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color: dodgerblue;
+}
+
+.block {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.block .card1, .card2, .card3, .card4, .card5, .card6 {
+    width: 470px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.block .card1 .category, .card2 .category, .card3 .category, .card4 .category, .card5 .category, .card6 .category {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: b4ad9e;
+    margin-bottom: 30px;
+}
+
+.block .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2  {
+    font-size: 30px;
+    font-weight: 400;
+    color: 626262;
+}
+
+.block .card1 .description, .card2 .description, .card3 .description, .card4 .description, .card5 .description, .card6 .description {
+    font-size: 14px;
+    margin-top: 40px;
+    color: 626262;
+    line-height: 24px;
+}
+
+.block .card1 .background, .card2 .background, .card3 .background, .card4 .background, .card5 .background, .card6 .background {
+    width: 420px;
+    height: 285px;
+    margin: 30px auto;
+}
+
+#img1 {
+    background-image: url(/img/img1.jpg)
+}
+#img2 {
+    background-image: url(/img/img2.jpg);
+}
+#img3 {
+    background-image: url(/img/img3.jpg);
+}
+#img4 {
+    background-image: url(/img/img4.jpg);
+}
+#img5 {
+    background-image: url(/img/img5.jpg);
+}
+#img6 {
+    background-image: url(/img/img6.jpg);
+}
+
+.block .button {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    margin: 55px 400px 70px;
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    color: 626262;
+    border: 1px solid;
+}
+.block .button:hover {
+    color: 626262;
+}
