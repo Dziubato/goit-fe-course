@@ -58,15 +58,21 @@
     line-height: 24px;
 }
 
-.block .card1 .background, .card2 .background, .card3 .background, .card4 .background, .card5 .background, .card6 .background {
+.block .card1 .background,
+.block .card2 .background,
+.block .card3 .background, 
+.block .card4 .background, 
+.block .card5 .background, 
+.block .card6 .background {
     width: 420px;
     height: 285px;
     margin: 30px auto;
 }
 
 #img1 {
-    background-image: url(/img/img1.jpg)
+    background-image: url(/img/img1.jpg);
 }
+
 #img2 {
     background-image: url(/img/img2.jpg);
 }
